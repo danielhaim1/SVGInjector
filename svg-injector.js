@@ -260,7 +260,7 @@
 
       // Copy all the data elements to the svg
       var imgData = [].filter.call(el.attributes, function (at) {
-        return (/^data-\w[\w\-]*$/).test(at.name);
+        return (/^data-\w[\w\-]*$/).test(at.name) || 'onclick'.match(at.name);
       });
       forEach.call(imgData, function (dataAttr) {
         if (dataAttr.name && dataAttr.value) {
