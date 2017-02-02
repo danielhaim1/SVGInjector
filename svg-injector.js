@@ -420,11 +420,8 @@
     // Callback to run during each SVG injection, returning the SVG injected
     var eachCallback = options.each;
 
-    // Quit early if can't inject
-    if (!elements || !elements.length) return;
-
     // Do the injection...
-    if (elements.length !== undefined) {
+    if (elements && elements.length !== undefined) {
       var elementsLoaded = 0;
       forEach.call(elements, function (element) {
         injectElement(element, evalScripts, pngFallback, function (svg) {
