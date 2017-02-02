@@ -1,12 +1,25 @@
 ## Change Log
 
-<a name="1.1.3"></a>
-# 1.1.3 (June 23, 2015)
-
-## Updates
-- Merged and extended the [pull request](https://github.com/iconic/SVGInjector/pull/24) adding support for re-enumerating all the rest of the [IRI references](http://www.w3.org/TR/SVG/linking.html#processingIRI), including `color-profile`, `cursor`, `filter`, `linearGradient`, `marker`, `pattern` and `radialGradient`. SVGInjector already supported `clipPath` and `mask`.
-- Added [IRI references test](https://github.com/iconic/SVGInjector/tree/master/tests/iri-attribute-defs).
-
+### 1.1.3 (2015/06/23 23:12 +00:00)
+- [e01b63e](https://github.com/iconic/SVGInjector/commit/e01b63e586b8ab61203eb58e1d94b3b2626873ec) changelog update (@protodave)
+- [d00ef1f](https://github.com/iconic/SVGInjector/commit/d00ef1f0d8ddfff7e61147ca48955ef740d3a226) updated svg/png assets and js library for examples and tests (@protodave)
+- [77ce693](https://github.com/iconic/SVGInjector/commit/77ce693181ba059714081ead83b598e70ebed162) Added keyword (@protodave)
+- [db7f1e7](https://github.com/iconic/SVGInjector/commit/db7f1e7d2c1ecbf00e0abc2cd81dc07b631f8d08) Added CORS test in prep for adding XDomainRequest for IE9 (@protodave)
+- [9f25052](https://github.com/iconic/SVGInjector/commit/9f25052fcc815aa719ba86506470b6ac2003612a) Updated author info in prep for npm publishing (@protodave)
+- [2b209bb](https://github.com/iconic/SVGInjector/commit/2b209bbc0de09ce9257cf55b582ebf859f444d8b) Added npm install details (@protodave)
+- [fae3a70](https://github.com/iconic/SVGInjector/commit/fae3a704af7283277051bd038760a656fff3a37f) Workaround/Fix for IE not using style tags from injected SVG files. Ref: issue #23 - Internet Explorer 11 svg images appears all black (@protodave)
+- [e84f9b4](https://github.com/iconic/SVGInjector/commit/e84f9b47eadb501e68a4d0d5b6593935e8d25c19) version bump for RC 1.1.3 testing (@protodave)
+- [6eb754f](https://github.com/iconic/SVGInjector/commit/6eb754f058b15bb15553edd884386fd250e849ca) Rewrite all iri reference attribute ids (@Pwntastic)
+- [32dadf5](https://github.com/iconic/SVGInjector/commit/32dadf59c419ca038ddb34b0325ec25bf4ac1a01) Start of IRI reference element/property test cases (@protodave)
+- [dc36886](https://github.com/iconic/SVGInjector/commit/dc36886f47fb5787a13e1c34ae72c0e6e95f4d9d) Added more IRI tests for fill and filter (@protodave)
+- [#24](https://null/iconic/SVGInjector/pull/24) Rewrite all iri reference attribute ids (@Pwntastic)
+- [aea524b](https://github.com/iconic/SVGInjector/commit/aea524b1149b08473b8187c87ec1fa746fff6cd7) reworked IRI re-enumeration code to explicitly map elements to properties that can address them (@protodave)
+- [55c2465](https://github.com/iconic/SVGInjector/commit/55c2465350b519a8ef99f1ea40aee6ecf2c8ad2c) copyright update (@protodave)
+- [f9c5248](https://github.com/iconic/SVGInjector/commit/f9c5248b4ddba4f8113a03dd814fe90beaa546f0) version bump to 1.1.3 (@protodave)
+- [d294d1a](https://github.com/iconic/SVGInjector/commit/d294d1adccc7aa6cfe6b0594cf38ede8a61337bd) New dist build: v1.1.3 (@protodave)
+- [8fefa15](https://github.com/iconic/SVGInjector/commit/8fefa156b0028746562520a47cb1ef6121196d34) updated svg-injector.min.js in all examples/ and tests/ (@protodave)
+- [21cbe6c](https://github.com/iconic/SVGInjector/commit/21cbe6c94a38659173ad16fb14e3ab31e2127869) changelog update (@protodave)
+- [bd355be](https://github.com/iconic/SVGInjector/commit/bd355bebb1903e1eac608883a8b5af5e7e6d5fd2) bower version bump to 1.1.3 (@protodave)
 
 ### 1.1.2 (2014/10/27 21:50 +00:00)
 - [8da3cfb](https://github.com/iconic/SVGInjector/commit/8da3cfbf239b286c6046f7cd1f80261690ad9a5d) changelog update (@protodave)
