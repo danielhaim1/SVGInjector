@@ -86,7 +86,7 @@
   };
 
   var loadSvg = function (url, callback) {
-    if (!window.SVGSVGElement) { return; };
+    if (!window.SVGSVGElement) return;
 
     if (svgCache[url] !== undefined) {
       if (svgCache[url] instanceof SVGSVGElement) {
